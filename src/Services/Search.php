@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Services;
+namespace DenisFelic\BuzzVelHotelsTest\Services;
 
-use App\Models\Hotel;
+use DenisFelic\BuzzVelHotelsTest\Models\Hotel;
 
 class Search
 {
