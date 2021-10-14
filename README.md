@@ -8,9 +8,9 @@ composer require denisfelic/buzzvel_getnearbyhotels_test
 Usage example
 
 ```
-Search::getNearbyHotels("-23.524727", "-46.4296952");
+Search::getNearbyHotels("-23.571226", "-46.645308");
 ```
 or 
 ```
-Search::getNearbyHotels("-23.524727", "-46.4296952", "pricepernight");
+Search::getNearbyHotels("-23.571226", "-46.645308", "pricepernight");
 ```
