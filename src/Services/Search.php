@@ -7,7 +7,7 @@ use App\Models\Hotel;
 class Search
 {
 
-    public static $buzzvelUrl = "https://buzzvel-interviews.s3.eu-west-1.amazonaws.com/hotels.json";
+    public const BUZZVEL_URL = "https://buzzvel-interviews.s3.eu-west-1.amazonaws.com/hotels.json";
 
 
     /**
@@ -50,7 +50,7 @@ class Search
     public static function getNearbyHotels($latitude, $longitude, $orderby = "proximity"): array
     {
         // Get data from get request
-        $response = file_get_contents(self::$buzzvelUrl);
+        $response = file_get_contents(self::BUZZVEL_URL);
         $hotelList = [];
         $response = json_decode($response);
 
